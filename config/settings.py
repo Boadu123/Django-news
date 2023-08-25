@@ -40,9 +40,13 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts',
     'pages',
+    'articles',
     
     #3rd Party
 ]
+
+TIME_ZONE =  'Africa/Accra'
+
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
